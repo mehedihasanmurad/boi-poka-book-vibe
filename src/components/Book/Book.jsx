@@ -7,10 +7,10 @@ const Book = ({ book }) => {
     
     return (
         <Link to={`/books/${bookId}`}>
-            <div className="card bg-base-100 shadow-sm rounded-2xl">
-                <div className='pt-5 px-5'>
-                    <figure className='bg-slate-100 p-5 rounded-2xl'>
-                        <img className='h-[166px] rounded-lg'
+            <div className="card bg-base-100 shadow-sm rounded-2xl pt-6">
+                <div className='px-7'>
+                    <figure className='bg-slate-100 rounded-2xl p-5'>
+                        <img className='h-[166px] lg:min-w-36 rounded-lg'
                             src={image}
                             alt={bookName} />
                     </figure>

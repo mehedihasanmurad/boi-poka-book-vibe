@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => {
     const links = <>
         <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/list">Listed Books</NavLink></li>
+        <li><NavLink to="/listedBooks">Listed Books</NavLink></li>
         <li><NavLink to="/read">Page to Read</NavLink></li>
     </>
     return (
